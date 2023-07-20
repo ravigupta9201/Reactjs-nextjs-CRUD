@@ -3,8 +3,7 @@
 import { useState, useEffect } from 'react';
 import {Form, Button, Container, Row, Col } from 'react-bootstrap';
 import Table from 'react-bootstrap/Table';
-import InputGroup from 'react-bootstrap/InputGroup';
-import { BiUserCircle } from "react-icons/Bi";
+
 import { MdDelete, MdEditSquare } from "react-icons/md";
 
 import styles from "@/app/styles/application.module.css"
