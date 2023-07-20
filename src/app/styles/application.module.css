@@ -1,0 +1,11 @@
+.main_section{
+
+        background-image: url("/my-app/public/banner-bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 100% 0;
+        /* position: relative; */
+        /* height: 90rem;
+        z-index: 999; */
+      
+}
