@@ -121,10 +121,7 @@ const Applicaton = () => {
                         <Form.Label>Name</Form.Label>
                         <div className="d-flex align-items-center">
                             <Form.Control type="text" placeholder="Enter Your Name" required name='username' id='username' value={userdata.username} onChange={handleInput} />
-                            {/* <BiUserCircle size={30} /> */}
                         </div>
-                        {/* <Form.Control type="text" placeholder="Enter Your Name" />
-                        <BiUserCircle size={30} /> */}
                     </Form.Group>
 
                     <Form.Group className="mb-3">
@@ -169,7 +166,7 @@ const Applicaton = () => {
                                     <option value="3">7</option>
                                 </Form.Select>
                                 {/* <Form.Control className="mb-3" type="number" min={1} max={7} placeholder="Province" />   */}
-                                <Form.Control className="mb-3" type="text" placeholder="Country 🚩" defaultValue="Nepal" name='country' id='country' value={userdata.country} onChange={handleInput} />
+                                <Form.Control className="mb-3" type="text" placeholder="Country" defaultValue="Nepal" name='country' id='country' value={userdata.country} onChange={handleInput} />
                             </Col>
                             
                         </Row>
